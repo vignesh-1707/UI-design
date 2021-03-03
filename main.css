@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+header, footer {
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	font-family: sans-serif;
+	width: 100%;
+	height: 100px;
+}
+.main{
+	background-image: url(https://www.freewalldownload.com/mountain-wallpapers/ice-beautiful-mountain-wallpapers-phone-images-and-desktop-views.jpg);
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 20px;
+	width: 100%;
+	border-image-width: 100%
+	background-size: contain;
+}
+.intro{
+	width: 50%;
+	margin-left: 60px;
+	margin-top: 70px;
+	float: left;
+	height: 40%;
+	text-align: left;
+	font-family: sans-serif;
+}
+.intro > p{
+	font-size: 105%;
+	margin-right: 250px;
+	font-weight: normal;
+}
+.btn{
+	background: none;
+	border: 2px solid black;
+	color: black;
+	font-weight: bolder;
+	font-size: 125%;
+	width: 40%;
+	float: left;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+a:link{
+	color: currentColor;
+}
+a:hover{
+	color: white;
+	background: black;
+}
+.overview{
+	background: white;
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+	padding: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 120%;
+}
+.dot{
+	background-color: white;
+	margin: 5px;
+	border-radius: 3px;
+	width: 20px;
+	height: 3px;
+	margin-left: 200vh;
+}
+.navi{
+	z-index: 1;
+	background: grey;
+	align-content: center;
+	text-align: left;
+	height: 30px;
+}
+.navi > h3{
+	margin-left: 5px;
+}
+.box{
+	margin-top: 20px;
+	background: white;
+	margin-left: 120vh;
+	margin-right: 30vh;
+	height: 400px;
+}
+footer{
+	align-items: center;
+	text-align: center;
+	font-size: 130%;
+	font-weight: bold;
+	text-decoration: none;
+}
+.foot a:link{
+	text-decoration: none;
+	color: white;
+}
